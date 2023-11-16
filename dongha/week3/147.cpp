@@ -9,7 +9,7 @@ using namespace std;
 // graph는 무방향그래프
 vector<int> graph[9];
 // 방문했는지 아닌지 나타내는 그래프
-bool        visited[9];
+bool visited[9];
 
 void bfs() {
     queue<int> q;
